@@ -1,0 +1,3 @@
+interface Personaje {
+    String getTipo();
+}
