@@ -1,5 +1,11 @@
+<h1 align="center">Integrantes</h1><h2 align="center"> Daniela Cortés Méndez <br> Sergio Andrés González Róa <br> Kareen Alejandra Latorre Martínez</h2>
+
 # Problemas a resolver con patrones de diseño:
 
-Patron estructural: Decorator
+***Patron estructural: Decorator*** <br>
 Imagine que estamos creando un sistema de facturación más eficiente para un local de empanadas de la Universidad. Los clientes pueden pedir diferentes tipos de empanadas con precios variados, teniendo también la posibilidad de agregar adiciones a sus platos como: queso extra, gaseosa y/o guacamole, teniendo estas un costo adicional. En este caso, es posible utilizar el patrón de diseño “Decorator” para modelar los extras y su costo adicional mediante la creación de una clase base para las empanadas y luego crear clases decoradoras que representen los extras y su precio. Así al agregarle un extra, se crea una nueva instancia de una clase decoradora y al calcular el costo total, se sumará el costo adicional y muestra el precio de los productos ofrecidos.
 
+***Patron creacional: Abstract Factory*** <br>
+Supongamos que estamos desarrollando un juego en línea que tiene diferentes entornos jugables como WorldWar, DeadWar y MagicWar. Cada entorno tiene diferentes tipos de personajes y objetos, como guerreros, magos, zombies y armas.<br>
+El problema surge cuando queremos agregar nuevos entornos y nuevos objetos, ya que el código existente que crea los personajes y objetos no es flexible ni escalable. Por esta razón podemos usar el patrón de diseño "Abstract Factory", con el cual podemos crear una interfaz llamada "FabricaDePersonaje" que se encargue de crear los objetos relacionados con el personaje en cada entorno. Luego, podemos crear clases concretas específicas para cada entorno, como "FabricaDePersonajeMagicWar", "FabricaDePersonajeDeadWar" y "FabricaDePersonajeWorldWar", que implementen la interfaz abstracta.
+De esta manera, si queremos agregar un nuevo entorno o un nuevo objeto, solo tenemos que crear una nueva clase concreta sin tener que modificar el código existente. Además, esta solución es flexible y escalable, lo que significa que podemos crear objetos personalizados para cada entorno sin tener que modificar el código existente.
