@@ -1,4 +1,5 @@
 abstract class MenuDelDia {
+
     final void crearMenu() {
         saludo();
         anadirsopa();
@@ -9,7 +10,7 @@ abstract class MenuDelDia {
     }
 
     void saludo() {
-        System.out.println("Bienvenido, al menú de hoy");
+        System.out.println("Bienvenido! Este es el menu de hoy:");
     }
 
     void anadirsopa() {
@@ -23,6 +24,6 @@ abstract class MenuDelDia {
     abstract void anadirJugo();
 
     void despedida() {
-        System.out.println("Por solo $12.000, te esperamos!!!");
+        System.out.println("Por solo $12.000, te esperamos!!! :)");
     }
 }

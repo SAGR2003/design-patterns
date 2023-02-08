@@ -1,8 +1,8 @@
-public class Viernes extends MenuDelDia{
+public class Viernes extends MenuDelDia {
 
     @Override
     void anadirProteina() {
-        System.out.println("Proteína: Pollo con champiñones");
+        System.out.println("Proteina: Pollo con champiñones");
     }
 
     @Override

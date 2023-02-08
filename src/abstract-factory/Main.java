@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        
         FabricaDePersonaje magicWar = new FabricaDePersonajeMagicWar();
         Juego mago = new Juego(magicWar);
         mago.jugar();

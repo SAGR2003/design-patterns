@@ -1,4 +1,5 @@
 class FabricaDePersonajeWorldWar implements FabricaDePersonaje {
+    
     @Override
     public Personaje crearPersonaje() {
         return new Piloto();

@@ -1,8 +1,8 @@
-public class Sabado extends MenuDelDia{
+public class Sabado extends MenuDelDia {
 
     @Override
     void anadirProteina() {
-        System.out.println("Proteína: Rib eye");
+        System.out.println("Proteina: Rib eye");
     }
 
     @Override

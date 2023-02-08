@@ -1,5 +1,5 @@
-
 public class Juego {
+    
     private FabricaDePersonaje fabricaDePersonaje;
 
     Juego(FabricaDePersonaje fabricaDePersonaje) {

@@ -1,6 +1,5 @@
-
 class FabricaDePersonajeMagicWar implements FabricaDePersonaje {
-
+    
     @Override
     public Personaje crearPersonaje() {
         return new Mago();
